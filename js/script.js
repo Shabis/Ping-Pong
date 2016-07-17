@@ -45,13 +45,13 @@ var answer = function(userInput) {
   } else {
     for (var i = 1; i <= userInput; i += 1) {
       if ((i % 3 === 0 ) && (i % 5 === 0)) {
-        result.push("ping-pong ");
+        result.push(" ping-pong");
       } else if (i % 3 === 0) {
-        result.push("ping ");
+        result.push(" ping");
       } else if (i % 5 === 0) {
-        result.push("pong ");
+        result.push(" pong");
       } else {
-        result.push(i + " ");
+        result.push(" " + i);
       }
     }
       return result;
